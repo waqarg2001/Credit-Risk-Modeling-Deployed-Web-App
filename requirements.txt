@@ -99,9 +99,6 @@ pycosat==0.6.3
 pycrypto==2.6.1
 pycurl==7.43.0.6
 pydeck==0.6.2
-pygame==1.9.6
-pyinstaller==4.1
-pyinstaller-hooks-contrib==2020.11
 pyngrok==5.0.5
 pyodbc===4.0.0-unsupported
 pyotp==2.6.0
