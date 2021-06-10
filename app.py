@@ -74,7 +74,7 @@ def main():
     # front end elements of the web page 
     html_temp = """ 
     <div style ="background-color:yellow;padding:13px"> 
-    <h1 style ="color:black;text-align:center;">Credit Risk Modeling by M.Waqar Gul</h1> 
+    <h1 style ="color:black;text-align:center;">Credit Risk Modeling developed by M.Waqar Gul</h1> 
     <h3 style="color:black;text-align:center;">https://www.linkedin.com/in/waqar-gul</h1>
     </div> 
     """
@@ -98,9 +98,16 @@ def main():
     # when 'Predict' is clicked, make the prediction and store it 
     if st.button("Predict"): 
         result = prediction(Gender, Married,Dependents,Education,SelfEmployed, ApplicantIncome,CoapplicantIncome, LoanAmount,LoanAmountTerm, CreditHistory) 
+        progress_bar = st.progress(0)
+        progress_text = st.empty()
+        for i in range(101):
+            time.sleep(0.1)
+            progress_bar.progress(i)
+            progress_text.text(f"Progress: {i}%")
         st.success('Your loan is {}'.format(result))
         print(LoanAmount)
-     
+   
+  
 if __name__=='__main__': 
     main()
 
