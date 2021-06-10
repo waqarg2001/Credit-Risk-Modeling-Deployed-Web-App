@@ -88,9 +88,9 @@ def main():
     Dependents =st.selectbox('Dependents',("0","1","2","3+"))
     Education=st.selectbox('Education',("Graduate","Not Graduate"))
     SelfEmployed=st.selectbox('SelfEmployed',("Yes","No"))
-    ApplicantIncome = st.number_input("Applicants monthly income") 
-    CoapplicantIncome = st.number_input("Coapplicants monthly income") 
-    LoanAmount = st.number_input("Total loan amount")
+    ApplicantIncome = st.number_input("Applicants income") 
+    CoapplicantIncome = st.number_input("Coapplicants income") 
+    LoanAmount = st.number_input("Loan amount")
     LoanAmountTerm = st.number_input("Loan Amount Term")
     CreditHistory = st.selectbox('Credit_History',("1","0"))
     result =""
