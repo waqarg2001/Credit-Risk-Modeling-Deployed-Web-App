@@ -9,9 +9,8 @@ Original file is located at
 
 import pickle
 import streamlit as st
-from keras.models import load_model
 # loading the trained model
-classifier=pickle.load(open('credit-risk.pkl, 'rb'))
+classifier=pickle.load(open('credit-risk.pkl', 'rb'))
  
 @st.cache()
   
