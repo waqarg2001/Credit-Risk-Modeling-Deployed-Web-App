@@ -94,7 +94,6 @@ plumber==1.6
 ply==3.11
 prettytable==2.0.0
 protobuf==3.17.3
-py2exe==0.10.1.0
 pyarrow==4.0.1
 pycosat==0.6.3
 pycrypto==2.6.1
