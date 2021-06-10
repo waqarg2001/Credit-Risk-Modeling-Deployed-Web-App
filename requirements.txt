@@ -10,4 +10,4 @@ python-language-server==0.31.7
 scikit-image==0.18.1
 streamlit==0.82.0
 streamlit-ace==0.1.0
-tensorflow==2.5.0
+tensorflow-cpu==2.5.0
