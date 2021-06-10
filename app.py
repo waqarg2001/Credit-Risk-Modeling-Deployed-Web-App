@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 from tensorflow.keras.models import load_model
 # loading the trained model
-classifier=load_model('credit-risk')
+classifier=load_model('credit_risk')
  
 @st.cache()
   
