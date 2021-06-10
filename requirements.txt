@@ -2,9 +2,6 @@ absl-py==0.12.0
 alabaster==0.7.12
 altair==4.1.0
 altgraph==0.17
-anaconda-client==1.7.2
-anaconda-navigator==1.9.12
-anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1621348054992/work
 anyio==2.0.2
 argh==0.26.2
 argon2-cffi @ file:///C:/ci/argon2-cffi_1613038019788/work
@@ -45,14 +42,8 @@ cffi @ file:///C:/ci/cffi_1613247308275/work
 chardet @ file:///C:/ci/chardet_1607706910910/work
 click @ file:///tmp/build/80754af9/click_1621604852318/work
 cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1598884132938/work
-clyent==1.2.2
 colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
 comtypes==1.1.10
-conda==4.10.1
-conda-build==3.18.11
-conda-pack @ file:///tmp/build/80754af9/conda-pack_1611163042455/work
-conda-package-handling @ file:///C:/ci/conda-package-handling_1618262352237/work
-conda-verify==3.4.2
 contextlib2==0.6.0.post1
 cryptography @ file:///C:/ci/cryptography_1616769432139/work
 cycler==0.10.0
