@@ -72,7 +72,7 @@ def main():
     html_temp = """ 
     <div style ="background-color:yellow;padding:13px"> 
     <h1 style ="color:black;text-align:center;">Credit Risk Modeling by M.Waqar Gul</h1> 
-    <h3 style="color:black;text-align:center;"https://www.linkedin.com/in/waqar-gul</h1>
+    <h3 style="color:black;text-align:center;">https://www.linkedin.com/in/waqar-gul</h1>
     </div> 
     """
       
