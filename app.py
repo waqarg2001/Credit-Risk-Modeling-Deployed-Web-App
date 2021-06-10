@@ -55,7 +55,7 @@ def prediction(Gender, Married,Dependents,Education,SelfEmployed, ApplicantIncom
  
     ApplicantIncome=((ApplicantIncome)-5403.459283)/6109.041673	
     CoapplicantIncome=((CoapplicantIncome)-1621.245798	)/2926.248369	
-    LoanAmount=((LoanAmoun)-146.412162)/85.587325
+    LoanAmount=((LoanAmount)-146.412162)/85.587325
     LoanAmountTerm=((LoanAmountTerm)-342.00000)/65.12041		
  
     # Making predictions 
