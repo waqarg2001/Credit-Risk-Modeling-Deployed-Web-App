@@ -9,8 +9,9 @@ Original file is located at
 
 import pickle
 import streamlit as st
+from tensorflow.keras.models import load_model
 # loading the trained model
-classifier=pickle.load(open('credit-risk.pkl', 'rb'))
+classifier=load_model('credit-risk')
  
 @st.cache()
   
@@ -70,7 +71,8 @@ def main():
     # front end elements of the web page 
     html_temp = """ 
     <div style ="background-color:yellow;padding:13px"> 
-    <h1 style ="color:black;text-align:center;">Credit Risk Modeling</h1> 
+    <h1 style ="color:black;text-align:center;">Credit Risk Modeling by M.Waqar Gul</h1> 
+    <h3 style="color:black;text-align:center;"https://www.linkedin.com/in/waqar-gul</h1>
     </div> 
     """
       
