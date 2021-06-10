@@ -1,12 +1,5 @@
-Keras==2.4.3
-keras-nightly==2.5.0.dev2021032900
-Keras-Preprocessing==1.1.2
-mysql==0.0.2
-mysql-connector-python-rf==2.2.2
-mysqlclient==2.0.3
 numpy==1.19.5
 pyngrok==5.0.5
-pickle==4.0
 python-language-server==0.31.7
 scikit-image==0.18.1
 scikit-learn ==0.22.2
