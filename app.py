@@ -91,7 +91,7 @@ def main():
     SelfEmployed=st.selectbox('SelfEmployed',("Yes","No"))
     ApplicantIncome = st.number_input("Applicants income $") 
     CoapplicantIncome = st.number_input("Coapplicants income $") 
-    LoanAmount = st.number_input("Loan amount in thousands")
+    LoanAmount = st.number_input("Loan amount in $ thousands")
     LoanAmountTerm = st.number_input("Loan Amount Term (weeks)")
     CreditHistory = st.selectbox('Credit_History',("1","0"))
     result =""
